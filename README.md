@@ -2,6 +2,8 @@
 
 This repository contains MATLAB scripts for processing and analyzing wave propagation data as part of my mechanical engineering PhD research.
 
+![Description of Image](https://github.com/Kai-334/Mechanical-Engineering-PhD-Data-Processing/blob/40c670d700873926d18c4d8237f56b9389e6957e/Surface%20vs%20Cross%20Section.png)
+
 ## Project Overview
 
 The scripts perform the following tasks:
