@@ -19,6 +19,31 @@ The scripts perform the following tasks:
 - `data/`: Contains input data files required for the analysis.
 - `figures/`: (Optional) Stores generated figures.
 
+```
+- your-project/
+  - README.md
+  - src/
+    - main_script.m
+    - data_import.m
+    - data_visualization.m
+    - data_filtering.m
+    - time_gating.m
+    - apply_hann_window.m
+    - fft_analysis.m
+    - plot_dispersion_curves.m
+    - extract_modes.m
+    - extract_modes_with_displacement.m
+    - scaling_matrix.m
+    - compute_participating_factor.m
+  - data/
+    - V22.mat
+    - A0.mat
+    - S0.mat
+    - (other .mat files)
+  - figures/
+    - (optional: save generated figures here)
+```
+
 ## Getting Started
 
 1. Clone the repository.
