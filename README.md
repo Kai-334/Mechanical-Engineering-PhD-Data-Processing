@@ -41,4 +41,4 @@ This project is licensed under the MIT License.
 
 ## Contact
 
-For questions or collaboration, please contact [Your Name](mailto:your.email@example.com).
+For questions or collaboration, please contact [Sze Kai Low](mailto:lszekai977@gmail,com).
