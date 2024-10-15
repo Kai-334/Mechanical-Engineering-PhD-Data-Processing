@@ -6,12 +6,12 @@ This repository contains MATLAB scripts for processing and analyzing wave propag
 
 The scripts perform the following tasks:
 
-- Importing data from simulation or experimental results.
-- Visualizing raw and filtered wave data.
-- Applying digital filters and time-gating.
-- Performing 2D Fast Fourier Transform (FFT) analysis.
-- Overlaying theoretical dispersion curves.
-- Calculating participating factors for different modes.
+- Data Importing: Reading and preprocessing raw acoustic emission data from simulations or experiments.
+- Data Visualization: Visualizing raw and filtered wave data in both time-space and frequency-wavenumber domains.
+- Signal Processing: Applying digital filters and time-gating to enhance signal quality and focus on regions of interest.
+- FFT Analysis: Performing 2D Fast Fourier Transform (FFT) analysis to convert time-space data into frequency-wavenumber representations.
+- Dispersion Curve Overlay: Overlaying theoretical dispersion curves onto FFT results for comparison and validation.
+- Participating Factor Calculation: Calculating participating factors for different wave modes to quantify their contributions.
 
 ## File Structure
 
@@ -20,7 +20,7 @@ The scripts perform the following tasks:
 - `figures/`: (Optional) Stores generated figures.
 
 ```
-- your-project/
+- data-analysis-project/
   - README.md
   - src/
     - main_script.m
@@ -46,10 +46,11 @@ The scripts perform the following tasks:
 
 ## Getting Started
 
-1. Clone the repository.
-2. Ensure that MATLAB is installed on your system.
-3. Place your data files in the `data/` directory.
-4. Run `main_script.m` from the `src/` directory.
+1. Clone the repository:
+   git clone https://github.com/yourusername/data-analysis-project.git
+3. Ensure that MATLAB is installed on your system.
+4. Place your data files in the `data/` directory.
+5. Run `main_script.m` from the `src/` directory.
 
 ## Dependencies
 
